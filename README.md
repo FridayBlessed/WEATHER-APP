@@ -20,5 +20,6 @@ Cases
 
 - Request and show the users weather data based on his/her location (Javascript is required for this)...
 
-Free Weather Api: https://www.weatherapi.com/
-Alternative Api: https://openweathermap.org/
+- Free Weather Api: https://www.weatherapi.com/
+
+- Alternative Api: https://openweathermap.org/
