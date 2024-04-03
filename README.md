@@ -24,4 +24,5 @@ Free Weather Api:
 
 - https://www.weatherapi.com/
 
-- Alternative Api: https://openweathermap.org/
+Alternative Api:
+- https://openweathermap.org/
