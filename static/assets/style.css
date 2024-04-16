@@ -1,0 +1,63 @@
+
+
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(to left,cyan,red);
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    
+}
+
+/* Style the form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: hotpink;
+}
+
+/* Style the result section */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
