@@ -22,7 +22,7 @@ Cases
 
 Free Weather Api: 
 
-- https://www.weatherapi.com/
+- https://[www.weatherapi.com/](WeatherApi)
 
 Alternative Api:
 - https://openweathermap.org/
