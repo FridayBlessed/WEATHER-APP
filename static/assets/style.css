@@ -3,7 +3,7 @@
 /* styles.css */
 
 /* Reset default margin and padding */
-body, h1, p, form {
+body,  p, form {
     margin: 0;
     padding: 0;
 }
@@ -37,7 +37,7 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: black;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -51,10 +51,9 @@ input[type="submit"]:hover {
     background-color: hotpink;
 }
 
-/* Style the result section */
-h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+.h1{
+    text-align: center
+    
 }
 
 p {
