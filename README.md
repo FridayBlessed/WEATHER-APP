@@ -41,7 +41,7 @@ import json
 
 - Create a new folder named `templates`, in the same directory as `weather.py`, this folder will now contain two files `Index.html` & results.html.
 
-- ```@app.route('/')
+```@app.route('/')
 def index():
     return render_template('index.html')
 
@@ -64,6 +64,7 @@ def get_weather():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
     ```
 - The following code above, retrieves weather data from OpenweatherMap API, and make HTTP request to OpenweatherMap API, 
 
