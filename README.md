@@ -63,9 +63,9 @@ def get_weather():
     return render_template('results.html', city=city, temperature=temperature, description=description)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True)```
 
-    ```
+    
 - The following code above, retrieves weather data from OpenweatherMap API, and make HTTP request to OpenweatherMap API, 
 
 - Run the flask application by inputting the code ```python weather.py``` on your command prompt or terminal. The application will now start running on your computer, you can access it on your preferred browser by running `http://localhost:5000`
