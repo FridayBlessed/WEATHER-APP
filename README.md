@@ -41,7 +41,7 @@ import json
 
 - Create a new folder named `templates`, in the same directory as `weather.py`, this folder will now contain two files `Index.html` & results.html.
 
-`@app.route('/')
+```@app.route('/')
 def index():
     return render_template('index.html')
 
@@ -63,7 +63,7 @@ def get_weather():
     return render_template('results.html', city=city, temperature=temperature, description=description)
 
 if __name__ == '__main__':
-    app.run(debug=True)`
+    app.run(debug=True)```
 
 
 
