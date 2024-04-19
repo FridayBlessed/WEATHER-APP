@@ -39,7 +39,7 @@ import json
 
 - Replace the ```API_KEY``` Variable, with your own personal API Key, after creation of account on the website Https://www.Openweathermap.org
 
-- Create a new folder named `templates`, in the same directory as `weather.py`, this folder will now contain two files `Index.html` & results.html.
+- Create a new folder named `templates`, in the same directory as `weather.py`, this folder will now contain two files `Index.html` & `results.html.`
 
 ```@app.route('/')
 def index():
