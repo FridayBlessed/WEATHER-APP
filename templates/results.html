@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Weather App</title>
+    <title>{{ title }} Weather</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,300;0,400;1,300&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Weather Forecast for {{ city }}</h1>
+    <h1><span class="w1">Weather </span>Forecast for {{ city }}</h1>
 
     <p>Temperature: {{ temperature }}°C</p>
     
     <p>Description: {{ description }}</p>
+
+    
 </body>
 </html>
