@@ -66,7 +66,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-
+.
     
 - The following code above, retrieves weather data from OpenweatherMap API, and make HTTP request to OpenweatherMap API, 
 
