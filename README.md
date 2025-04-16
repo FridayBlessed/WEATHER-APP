@@ -31,7 +31,7 @@ Alternative Api:
 
 - Make sure the Flask and python is already installed on your computer, if you dont have python, you can download from their official website https://www.python.org, and also install flask, using the command ```pip install Flask``` on your terminal
 
-- Create a new file and name it ```weather.py```, import the following modules ```from flask import Flask```, ```render_template```, request
+- Create a new file and name it ```app.py```, import the following modules ```from flask import Flask```, ```render_template```, request
 ```import requests``` to make HTTP Requests
 import json
 
